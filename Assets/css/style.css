@@ -118,6 +118,7 @@ body {
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
   background-color: var(--body-color);
+  /* background-color: var(--first-color-second); */
   color: var(--text-color);
 }
 
@@ -300,10 +301,11 @@ img {
 .home-blob {
   width: 200px;
   fill: var(--first-color);
+  /* color: var(--first-color); */
 }
 
 .home-blob-img{
-  width: 170px;
+  width: 10px;
 }
 
 .home__data {
@@ -325,10 +327,9 @@ img {
   margin-bottom: var(--mb-2);
 }
 
-.home__scroll {
-  display: 0;
-  /* display: none; */
-}
+/* .home__scroll {
+   display: none;
+} */
 
 .home__scroll-button {
   color: var(--first-color);
