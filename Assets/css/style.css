@@ -416,11 +416,13 @@ img {
 .about__img {
   width: 200px;
   border-radius: .5rem;
-  justify-content: center;
-  align-self: center;
+  justify-self: center;
 }
 
 .about__description {
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
   text-align: center;
   margin-bottom: var(--mb-2-5);
 }
@@ -606,8 +608,10 @@ img {
 }
 
 .project__img {
-  width: 232px;
+  width: 200px;
+  margin-bottom: 15px;
   justify-self: center;
+  border-radius: 5px;
 }
 
 /*==================== CONTACT ME ====================*/
@@ -808,7 +812,8 @@ img {
     .portfolio__content,
     .project__container,
     .contact__container,
-    .footer__container {
+    .footer__container 
+    {
         grid-template-columns: repeat(2, 1fr);
     }
 
@@ -884,11 +889,26 @@ img {
     .about__img {
       width: 350px;
     }
+
+
+    /*  */
+    .about__data{
+      display: flex;
+      flex-direction: column;
+      
+    }
+    /*  */
+
+
+
+
     .about__description {
       text-align: initial;
+      align-items: center;
     }
     .about__info {
       justify-content: space-between;
+      align-items: center;
     }
     .about__buttons {
       justify-content: initial;
